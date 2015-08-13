@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F151928F1AB645C7008A0F6E /* TROModelWcfAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = F151928E1AB645C7008A0F6E /* TROModelWcfAuth.m */; };
+		F1DB18901AB6456700773430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB188F1AB6456700773430 /* Foundation.framework */; };
+		F1DB18921AB6456700773430 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB18911AB6456700773430 /* CoreGraphics.framework */; };
+		F1DB18941AB6456700773430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB18931AB6456700773430 /* UIKit.framework */; };
+		F1DB189A1AB6456700773430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DB18981AB6456700773430 /* InfoPlist.strings */; };
+		F1DB189C1AB6456700773430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB189B1AB6456700773430 /* main.m */; };
+		F1DB18A01AB6456700773430 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB189F1AB6456700773430 /* AppDelegate.m */; };
+		F1DB18A31AB6456700773430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB18A11AB6456700773430 /* Main.storyboard */; };
+		F1DB18A61AB6456700773430 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB18A51AB6456700773430 /* ViewController.m */; };
+		F1DB18A81AB6456700773430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DB18A71AB6456700773430 /* Images.xcassets */; };
+		F1DB18AF1AB6456700773430 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB18AE1AB6456700773430 /* XCTest.framework */; };
+		F1DB18B01AB6456700773430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB188F1AB6456700773430 /* Foundation.framework */; };
+		F1DB18B11AB6456700773430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB18931AB6456700773430 /* UIKit.framework */; };
+		F1DB18B91AB6456700773430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DB18B71AB6456700773430 /* InfoPlist.strings */; };
+		F1DB18BB1AB6456700773430 /* BlockPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB18BA1AB6456700773430 /* BlockPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1DB18B21AB6456700773430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DB18841AB6456700773430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DB188B1AB6456700773430;
+			remoteInfo = BlockPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F151928D1AB645C1008A0F6E /* TROModelWcfAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TROModelWcfAuth.h; sourceTree = "<group>"; };
+		F151928E1AB645C7008A0F6E /* TROModelWcfAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TROModelWcfAuth.m; sourceTree = "<group>"; };
+		F1DB188C1AB6456700773430 /* BlockPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB188F1AB6456700773430 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1DB18911AB6456700773430 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1DB18931AB6456700773430 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1DB18971AB6456700773430 /* BlockPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockPlay-Info.plist"; sourceTree = "<group>"; };
+		F1DB18991AB6456700773430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1DB189B1AB6456700773430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DB189D1AB6456700773430 /* BlockPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockPlay-Prefix.pch"; sourceTree = "<group>"; };
+		F1DB189E1AB6456700773430 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1DB189F1AB6456700773430 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1DB18A21AB6456700773430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DB18A41AB6456700773430 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1DB18A51AB6456700773430 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1DB18A71AB6456700773430 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1DB18AD1AB6456700773430 /* BlockPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB18AE1AB6456700773430 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1DB18B61AB6456700773430 /* BlockPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockPlayTests-Info.plist"; sourceTree = "<group>"; };
+		F1DB18B81AB6456700773430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1DB18BA1AB6456700773430 /* BlockPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DB18891AB6456700773430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB18921AB6456700773430 /* CoreGraphics.framework in Frameworks */,
+				F1DB18941AB6456700773430 /* UIKit.framework in Frameworks */,
+				F1DB18901AB6456700773430 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DB18AA1AB6456700773430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB18AF1AB6456700773430 /* XCTest.framework in Frameworks */,
+				F1DB18B11AB6456700773430 /* UIKit.framework in Frameworks */,
+				F1DB18B01AB6456700773430 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DB18831AB6456700773430 = {
+			isa = PBXGroup;
+			children = (
+				F1DB18951AB6456700773430 /* BlockPlay */,
+				F1DB18B41AB6456700773430 /* BlockPlayTests */,
+				F1DB188E1AB6456700773430 /* Frameworks */,
+				F1DB188D1AB6456700773430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DB188D1AB6456700773430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB188C1AB6456700773430 /* BlockPlay.app */,
+				F1DB18AD1AB6456700773430 /* BlockPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DB188E1AB6456700773430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB188F1AB6456700773430 /* Foundation.framework */,
+				F1DB18911AB6456700773430 /* CoreGraphics.framework */,
+				F1DB18931AB6456700773430 /* UIKit.framework */,
+				F1DB18AE1AB6456700773430 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DB18951AB6456700773430 /* BlockPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F151928E1AB645C7008A0F6E /* TROModelWcfAuth.m */,
+				F151928D1AB645C1008A0F6E /* TROModelWcfAuth.h */,
+				F1DB189E1AB6456700773430 /* AppDelegate.h */,
+				F1DB189F1AB6456700773430 /* AppDelegate.m */,
+				F1DB18A11AB6456700773430 /* Main.storyboard */,
+				F1DB18A41AB6456700773430 /* ViewController.h */,
+				F1DB18A51AB6456700773430 /* ViewController.m */,
+				F1DB18A71AB6456700773430 /* Images.xcassets */,
+				F1DB18961AB6456700773430 /* Supporting Files */,
+			);
+			path = BlockPlay;
+			sourceTree = "<group>";
+		};
+		F1DB18961AB6456700773430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB18971AB6456700773430 /* BlockPlay-Info.plist */,
+				F1DB18981AB6456700773430 /* InfoPlist.strings */,
+				F1DB189B1AB6456700773430 /* main.m */,
+				F1DB189D1AB6456700773430 /* BlockPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1DB18B41AB6456700773430 /* BlockPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB18BA1AB6456700773430 /* BlockPlayTests.m */,
+				F1DB18B51AB6456700773430 /* Supporting Files */,
+			);
+			path = BlockPlayTests;
+			sourceTree = "<group>";
+		};
+		F1DB18B51AB6456700773430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB18B61AB6456700773430 /* BlockPlayTests-Info.plist */,
+				F1DB18B71AB6456700773430 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DB188B1AB6456700773430 /* BlockPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DB18BE1AB6456700773430 /* Build configuration list for PBXNativeTarget "BlockPlay" */;
+			buildPhases = (
+				F1DB18881AB6456700773430 /* Sources */,
+				F1DB18891AB6456700773430 /* Frameworks */,
+				F1DB188A1AB6456700773430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockPlay;
+			productName = BlockPlay;
+			productReference = F1DB188C1AB6456700773430 /* BlockPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1DB18AC1AB6456700773430 /* BlockPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DB18C11AB6456700773430 /* Build configuration list for PBXNativeTarget "BlockPlayTests" */;
+			buildPhases = (
+				F1DB18A91AB6456700773430 /* Sources */,
+				F1DB18AA1AB6456700773430 /* Frameworks */,
+				F1DB18AB1AB6456700773430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DB18B31AB6456700773430 /* PBXTargetDependency */,
+			);
+			name = BlockPlayTests;
+			productName = BlockPlayTests;
+			productReference = F1DB18AD1AB6456700773430 /* BlockPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DB18841AB6456700773430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HamiltonHoltInc;
+				TargetAttributes = {
+					F1DB18AC1AB6456700773430 = {
+						TestTargetID = F1DB188B1AB6456700773430;
+					};
+				};
+			};
+			buildConfigurationList = F1DB18871AB6456700773430 /* Build configuration list for PBXProject "BlockPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DB18831AB6456700773430;
+			productRefGroup = F1DB188D1AB6456700773430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DB188B1AB6456700773430 /* BlockPlay */,
+				F1DB18AC1AB6456700773430 /* BlockPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DB188A1AB6456700773430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB18A81AB6456700773430 /* Images.xcassets in Resources */,
+				F1DB189A1AB6456700773430 /* InfoPlist.strings in Resources */,
+				F1DB18A31AB6456700773430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DB18AB1AB6456700773430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB18B91AB6456700773430 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DB18881AB6456700773430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F151928F1AB645C7008A0F6E /* TROModelWcfAuth.m in Sources */,
+				F1DB18A61AB6456700773430 /* ViewController.m in Sources */,
+				F1DB18A01AB6456700773430 /* AppDelegate.m in Sources */,
+				F1DB189C1AB6456700773430 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DB18A91AB6456700773430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB18BB1AB6456700773430 /* BlockPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1DB18B31AB6456700773430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DB188B1AB6456700773430 /* BlockPlay */;
+			targetProxy = F1DB18B21AB6456700773430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1DB18981AB6456700773430 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB18991AB6456700773430 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1DB18A11AB6456700773430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB18A21AB6456700773430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DB18B71AB6456700773430 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB18B81AB6456700773430 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DB18BC1AB6456700773430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1DB18BD1AB6456700773430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DB18BF1AB6456700773430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockPlay/BlockPlay-Prefix.pch";
+				INFOPLIST_FILE = "BlockPlay/BlockPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1DB18C01AB6456700773430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockPlay/BlockPlay-Prefix.pch";
+				INFOPLIST_FILE = "BlockPlay/BlockPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1DB18C21AB6456700773430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockPlay.app/BlockPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockPlay/BlockPlay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlockPlayTests/BlockPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1DB18C31AB6456700773430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockPlay.app/BlockPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockPlay/BlockPlay-Prefix.pch";
+				INFOPLIST_FILE = "BlockPlayTests/BlockPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DB18871AB6456700773430 /* Build configuration list for PBXProject "BlockPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DB18BC1AB6456700773430 /* Debug */,
+				F1DB18BD1AB6456700773430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DB18BE1AB6456700773430 /* Build configuration list for PBXNativeTarget "BlockPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DB18BF1AB6456700773430 /* Debug */,
+				F1DB18C01AB6456700773430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DB18C11AB6456700773430 /* Build configuration list for PBXNativeTarget "BlockPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DB18C21AB6456700773430 /* Debug */,
+				F1DB18C31AB6456700773430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DB18841AB6456700773430 /* Project object */;
+}
